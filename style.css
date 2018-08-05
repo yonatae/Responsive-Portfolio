@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,400i,700');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url('https://orig00.deviantart.net/f8e4/f/2018/202/e/5/concrete_seamless_by_yonatae-dchuvbb.png') repeat;
+}
+
+#header {
+    background: #FEFEFE;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0px solid #dddddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    text-align: justify;
+}
+
+.headercontent {
+    width: 70%;
+    max-width: 960px;
+    padding: 0;
+    margin: auto auto;
+    overflow: hidden;
+}
+
+#name {
+    font-family: 'Playfair Display', 'Georgia', Times, serif;
+    background: #4aaaa5;
+    width: fit-content;
+    padding: 20px 30px 20px 30px;
+    font-size: 30px;
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: #FFF;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.navigation {
+    float: right;
+    display: flex;
+    line-height: 80px;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.divider {
+    margin: 35px 15px 0px 15px;
+    width: 1px;
+    border-left: 1px solid #CCC;
+    height: 15px;
+}
+
+.banner {
+    width: 100%;
+    height: 550px;
+    background: url('https://orig00.deviantart.net/40a3/f/2018/074/b/f/unconfined_by_yonatae-dc5ywzj.png') no-repeat;
+    background-size: cover;
+    background-position: 100% 40%;
+    background-attachment: fixed;
+    border-bottom: 1px solid #ddd;
+    transition: 0.7s ease;
+    z-index: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.content {
+    background: #FEFEFE;
+    padding: 40px 60px 40px 60px;
+    width: 70%;
+    max-width: 960px;
+    margin: 50px auto 50px auto;
+    border: 1px solid #dddddd;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 29px;
+    color: #777;
+    text-align: justify;
+}
+
+.aboutme {
+    margin: 0 0 20px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #dddddd;
+    color: #4aaaa5;
+    font-family: 'Playfair Display', 'Georgia', Times, serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.biopic {
+    background: url('https://orig00.deviantart.net/10a2/f/2018/202/a/e/charlie_deets_517076_unsplash_by_yonatae-dchuyts.jpg') no-repeat;
+    background-size: 450px;
+    background-position: 50% 100%;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 0px 25px 15px 0px;
+    border: 1px solid #ddd;
+}
+
+/* Replaced sticky footer with sticky header for aesthetics
+Uncomment code below to see sticky footer for site */
+
+#footer {
+    width: 100%;
+    background: #666;
+    border-top: 10px solid #4aaaa5;
+    /* position: fixed;
+    bottom: 0; */
+}
+
+.footercontent {
+    width: 70%;
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 40px 0 40px 0;
+}
+
+i {
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #999;
+    letter-spacing: 0px;
+    line-height: 40px;
+}
+
+.float {
+    float: right;
+}
+
+.minititle {
+    font-size: 16px;
+    color: #4aaaa5;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+}
+
+textarea {
+    background: #FEFEFE;
+    border: 1px solid #CCC;
+    padding: 10px;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #999;
+    font-size: 12px;
+    width: 100%;
+    height: 250px;
+}
+
+input {
+    background: #FEFEFE;
+    border: 1px solid #CCC;
+    padding: 10px;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #999;
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #4aaaa5;
+    border-radius: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #FFF;
+    border: 1px solid #398a86;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+}
+
+.portpicbg {
+    width: 30%;
+    background-size: cover;
+    padding: 170px 0 10px 0;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+#bg1 {
+    background-image: url('https://images.unsplash.com/photo-1532636703958-2d1c80dba54c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=30c153e913f9477c091eb024e2a788b4&auto=format&fit=crop&w=1500&q=80')
+}
+
+#bg2 {
+    background-image: url('https://images.unsplash.com/photo-1532626013999-d6d494e39e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43382e7412dee88dbcb7b05aa8578cb2&auto=format&fit=crop&w=1500&q=80')
+}
+
+#bg3 {
+    background-image: url('https://images.unsplash.com/photo-1532615470080-39f17172bc1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29134561cbbcb439b5031e549af685a0&auto=format&fit=crop&w=1546&q=80')
+}
+
+.portpiclabel {
+    background: #398a86;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #FFF;
+    padding: 5px 20px 5px 20px;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #999;
+    text-decoration: none;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+}
+
+a:hover {
+    color: #ccc;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@media (max-width: 980px) {
+    .headercontent {
+        width: 100%;
+    }
+
+	.navigation {
+        float: none;
+        width: 225px;
+        margin: 0 auto;
+	}
+	
+	#name {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .biopic {
+        background-size: cover;
+        width: 100%;
+    }
+
+    .portpicbg {
+        margin: 0;
+        width: 32%;
+    }
+
+    #header {
+        position: static;
+    }
+
+    banner {
+        background-attachment: unset;
+    }
+}
+
+@media (max-width: 768px) {
+    .biopic {
+        height: 150px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .banner {
+        height: 450px;
+    }
+
+    .portpicbg {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .content {
+        margin: 0 auto;
+    }
+
+    .banner {
+        height: 350px;
+    }
+
+    .portpicbg {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
